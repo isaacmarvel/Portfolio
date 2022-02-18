@@ -1,11 +1,20 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    background-color: rgb(145, 145, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header {
-    
+main {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+footer {
+  margin-top: auto;
+}
  /* Style the navigation menu */
  .topnav {
     background-color: #333;
@@ -43,6 +52,6 @@ header {
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
+    background-color: rgb(52, 52, 97);
     color: white;
   } 
