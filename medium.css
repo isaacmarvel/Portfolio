@@ -1,3 +1,24 @@
+.icon {
+  display: none;
+}
+
+.topnav {
+  display: flex;
+  background-color: rgb(52, 52, 97);
+  padding: 1em 1.5em;
+  font-size: 17px;
+}
+
+.topnav #myLinks {
+  margin-left: auto;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  padding-left: .5em;
+}
+
 .about {
     display: grid;
     grid-template-columns: 3fr 1fr;
