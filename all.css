@@ -33,13 +33,6 @@ footer {
   text-align: center;
 }
 
-.projectsGrid {
-  display: grid;
-  grid-template-areas: "project1 project2"
-                       "project3 project4";
-  grid-template-rows: 10em 10em;
-  grid-template-columns: 10em 10em;
-}
 
 .project1 { grid-area: project1; }
 .project2 { grid-area: project2; }
@@ -53,6 +46,8 @@ footer {
   background-color: rgb(52, 52, 97);
   margin: 1em;
   border: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .project1 button,
@@ -60,11 +55,11 @@ footer {
 .project3 button,
 .project4 button {
   margin: 1em;
+  align-self: center;
+  border-radius: 10%;
 }
 
-.project1 button,
-.project2 button,
-.project3 button,
-.project4 button {
-  margin: 1em;
+.projectsHeader {
+  text-align: center;
+  color: white;
 }

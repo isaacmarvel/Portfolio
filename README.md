@@ -1,5 +1,5 @@
 # Portfolio
 To do:
-create projects grid
-field validating contact me section
-links disappear in desktop version
+link projects in projects section
+Add github and Linkedin links at bottom
+Make Contact Me section actually useful

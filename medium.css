@@ -34,3 +34,11 @@
     grid-row-start: 2;
     grid-row-end: -1;
   }
+
+  .projectsGrid {
+    display: grid;
+    grid-template-areas: "project1 project2"
+                         "project3 project4";
+    grid-template-rows: 12em 12em;
+    grid-template-columns: 12em 12em;
+  }

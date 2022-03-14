@@ -33,3 +33,14 @@
   background-color: rgb(52, 52, 97);
   color: white;
 } 
+.projectsGrid {
+  display: grid;
+  grid-template-areas: "project1"
+                       "project2"
+                       "project3" 
+                       "project4";
+  grid-template-rows: 12em 12em 12em 12em;
+  grid-template-columns: 12em;
+  align-items: center;
+  justify-content: center;
+}

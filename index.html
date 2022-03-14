@@ -61,36 +61,40 @@
           <div class=projectsGrid> 
             
             <div class="project1"> 
-              <h3>Project 1</h3>
-              <button>click me</button>
+              <h3 class="projectsHeader" >Project 1</h3>
+              <button>Github</button>
             </div> 
 
             <div class="project2"> 
-              <h3>Project 2</h3>
-              <button>click me</button>
+              <h3 class="projectsHeader"> Project 2</h3>
+              <button>Github</button>
             </div> 
 
             <div class="project3"> 
-              <h3>Project 3</h3>
-              <button>click me</button>
+              <h3 class="projectsHeader">Project 3</h3>
+              <button>Github</button>
             </div> 
 
             <div class="project4">
-              <h3>Project 4</h3>
-              <button>click me</button>
+              <h3 class="projectsHeader">Project 4</h3>
+              <button>Github</button>
             </div> 
 
           </div>
           
 
         <h2 id="contact">Contact Me</h2>
-        <p>blah blah blah</p>
-        <form>
-            Name, email
+        <p>Leave your name and email and I'll be sure to get back to you!</p>
+        <form name="myForm" onsubmit="validateForm()">
+            <label>Name:</label><br>
+              <input type="text" name="name"><br>
+            <label>Email:</label><br>
+              <input type="text" name="email"><br><br>
+              <input type="submit"
+                value="Submit">
         </form>
     </main>
     <footer>
-        <p>Links to github and linkedin</p>
         <p>Designed and built by Isaac Marvel</p>
     </footer>
     <script>
@@ -101,6 +105,18 @@
              } else {
               x.style.display = "block";
             }
+        } 
+
+        function validateForm() {
+          let x = document.forms["myForm"]["name"].value;
+          let y = document.forms["myForm"]["email"].value;
+          if (x == "" && y == "") {
+            alert("Name and email must be filled out");
+          } else if (y == "") {
+            alert("Email must be filled out");
+          } else if (x == "") {
+            alert("Name must be filled out");
+          }
         } 
     </script>
 </body>
