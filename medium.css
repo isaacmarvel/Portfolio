@@ -39,6 +39,6 @@
     display: grid;
     grid-template-areas: "project1 project2"
                          "project3 project4";
-    grid-template-rows: 12em 12em;
+    grid-template-rows: 11em 11em;
     grid-template-columns: 12em 12em;
   }
