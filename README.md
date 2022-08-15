@@ -1,4 +1,6 @@
 # Portfolio
+To do: add in projects, make things less square, maybe mess with colors, add in that css prettifier, get emailer working.
+
 My portfolio is just one page, and includes professional summary, about me, work experience, projects, and contact me sections. There are quite a few placeholders right now, but I figure those are lower priority than just making sure the site works. The resume and project links don't work, but it would be easy enough to get them working, that's not a concern. I also haven't uploaded an image of myself yet because I'm not sure which to use, so that's just an empty box for now. 
 
 Features: 
