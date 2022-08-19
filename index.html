@@ -33,9 +33,9 @@
       <h1 id="intro">Hey, I'm Isaac.</h1>
       <p>
         I'm a professional copyeditor transitioning into front-end web
-        development.
+        development. Check out my <a href="/images/Resume.pdf" download>résumé here!</a>
       </p>
-      <button href="">Résumé</button>
+      
 
       <div class="about">
         <h2 id="about">About me</h2>
@@ -45,7 +45,7 @@
           writing, SEO optimization, and problem-solving to upskill into
           front-end software development. Currently learning front-end web
           development through Code Louisville and the Odin Project, and about to
-          begin Code Louisville Software Development/C# course.
+          begin Code Louisville's Software Development/C# course.
         </p>
       </div>
 
@@ -86,34 +86,50 @@
       <h2 id="projects">Projects</h2>
       <div class="projectsGrid">
         <div class="project1">
-          <h3 class="projectsHeader">Project 1</h3>
-          <button>Github</button>
+          <h3 class="projectsHeader">Run Tracker</h3>
+          <form action="https://github.com/isaacmarvel/runTracker">
+            <button>Github</button>
+          </form>
         </div>
 
         <div class="project2">
-          <h3 class="projectsHeader">Project 2</h3>
-          <button>Github</button>
+          <h3 class="projectsHeader">Calculator</h3>
+          <form action="https://github.com/isaacmarvel/Calculator">
+            <button>Github</button>
+          </form>
         </div>
 
         <div class="project3">
-          <h3 class="projectsHeader">Project 3</h3>
-          <button>Github</button>
+          <h3 class="projectsHeader">Portfolio</h3>
+          <form action="https://github.com/isaacmarvel/Portfolio">
+            <button>Github</button>
+          </form>
         </div>
 
         <div class="project4">
-          <h3 class="projectsHeader">Project 4</h3>
-          <button>Github</button>
+          <h3 class="projectsHeader">Etch-a-Sketch</h3>
+          <form action="https://github.com/isaacmarvel/Etch-a-Sketch">
+            <button>Github</button>
+          </form>
         </div>
       </div>
 
       <h2 id="contact">Contact Me</h2>
       <p>Leave your name and email and I'll be sure to get back to you!</p>
-      <form name="myForm" onsubmit="validateForm()">
+      <form action="mailto:isaac.marvel.77@gmail.com" 
+        name="myForm" 
+        onsubmit="validateForm()"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
         <label>Name:</label><br />
         <input type="text" name="name" /><br /><br />
         <label>Email:</label><br />
         <input type="text" name="email" /><br /><br />
-        <input type="submit" value="Submit" />
+        Message:<br> 
+        <textarea name="Contact-Message" rows="6″ cols="20″>
+        </textarea><br><br> 
+        <button type="submit" value="Submit">Send</button>
       </form>
     </main>
     <footer>

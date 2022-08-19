@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   flex-direction: column;
@@ -60,7 +61,7 @@ footer {
 .project2 button,
 .project3 button,
 .project4 button {
-  margin: 1em;
+  margin: 2em;
   align-self: center;
   border-radius: 10%;
 }
@@ -72,10 +73,11 @@ footer {
 
 .dateRange {
   font-size: small;
-  font-color: gray;
+  color: gray;
   margin-bottom: -8px;
   margin-top: -10px;
 }
+
 @media only screen and (max-width: 480px) {
   .topnav {
     background-color: #333;
